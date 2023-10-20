@@ -67,9 +67,15 @@ def main():
     st.set_page_config(
         page_title="Get to know me", page_icon=":male-technologist:")
 
-    col1, col2 = st.columns([1, 2])
+    announcement = "(P.S. This was built in 3 days, imagine what I can do in 30 :sunglasses:)"
+    # st.write(announcement)
+    st.toast(body=announcement)
+    st.balloons()
+    col1, col2, col3 = st.columns([1, 2, 1])
     col1.header("Get to know me")
     col2.image("memoji.png", width=200)
+    with open("resume.pdf", "rb") as file:
+        col3.download_button(label="Download my Resume", data=file, file_name="resume.pdf", mime="application/pdf")
 
     message = st.text_area("Hi, I am Dhruv Kamalesh Kumar. Ask me any questions you want to know about me.")
 
@@ -79,7 +85,6 @@ def main():
         result = generate_response(message)
 
         st.info(result)
-
 
 
 if __name__ == '__main__':
