@@ -9,25 +9,19 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# 1. Vectorise the sales response csv data
 loader = CSVLoader(file_path="ME.csv")
 documents = loader.load()
 
 embeddings = OpenAIEmbeddings()
 db = FAISS.from_documents(documents, embeddings)
 
-# 2. Function for similarity search
+
 def retrieve_info(query):
     similar_response = db.similarity_search(query, k=3)
-
     page_contents_array = [doc.page_content for doc in similar_response]
-
-    # print(page_contents_array)
-
     return page_contents_array
 
 
-# 3. Setup LLMChain & prompts
 llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo-16k-0613")
 
 template = """
@@ -54,21 +48,17 @@ prompt = PromptTemplate(
 chain = LLMChain(llm=llm, prompt=prompt)
 
 
-# 4. Retrieval augmented generation
 def generate_response(question):
     relevant_data = retrieve_info(question)
     response = chain.run(question=question, relevant_data=relevant_data)
     return response
 
 
-# 5. Build an app with streamlit
 def main():
-
     st.set_page_config(
         page_title="Get to know me", page_icon=":male-technologist:")
 
     announcement = "(P.S. This was built in 3 days, imagine what I can do in 30 :sunglasses:)"
-    # st.write(announcement)
     st.toast(body=announcement)
     st.balloons()
     col1, col2, col3 = st.columns([1, 2, 1])
