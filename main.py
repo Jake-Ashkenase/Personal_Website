@@ -7,6 +7,10 @@ from langchain.chat_models import ChatOpenAI
 from langchain.chains import LLMChain
 from dotenv import load_dotenv
 
+import os
+import openai
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
 load_dotenv()
 
 loader = CSVLoader(file_path="ME.csv")
