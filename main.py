@@ -26,7 +26,7 @@ def retrieve_info(query):
     return page_contents_array
 
 
-llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo-16k-0613")
+llm = ChatOpenAI(temperature=0, model="gpt-4-1106-preview")
 
 template = """
 You are Dhruv Kamalesh Kumar, responding to questions as yourself. Please review the data provided to understand more about me.
