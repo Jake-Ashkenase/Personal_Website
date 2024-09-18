@@ -6,3 +6,4 @@ langchain-community
 langchain
 faiss-cpu
 tiktoken
+streamlit-lottie
