@@ -55,17 +55,56 @@ def generate_response(question):
 def main():
     # Set up the Streamlit page configuration and customize it
     st.set_page_config(
-        page_title="Get to know me", page_icon=":male-technologist:")
-
+        page_title="Get to know me", page_icon=":male-technologist:",
+        layout="wide")
+    
+    # Custom CSS 
+    st.markdown(
+        """
+        <style>
+        .stApp {
+            background-color: #193f64;
+            color: #ebc57e;
+        }
+        .stTextInput label {
+            font-size: 18px;
+            color: #333;
+        }
+        .stTextInput div {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .stTextInput textarea {
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .stButton button {
+            background-color: #f1ab65;
+            color: #f1ab65;
+            border-radius: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        .stButton button:hover {
+            background-color: #e28743;
+        }
+        </style>
+        """, unsafe_allow_html=True
+    )
     # Streamlit UI layout with columns
     col1, col2, col3 = st.columns([1, 2, 1])
-    col1.header("Get to know me")
-    col2.image("memoji.png", width=200)
-    with open("resume.pdf", "rb") as file:
-        col3.download_button(label="Download my Resume", data=file, file_name="resume.pdf", mime="application/pdf")
+
+    col1.markdown("<h1 style='text-align: center;'>Get to know me</h1>", unsafe_allow_html=True)
+
+    col2.image("Jake Ashkenase Headshot.png", width=200)
+    with open("Jake_Ashkenase_Resume_2024.pdf", "rb") as file:
+        col3.download_button(label="Download my Resume", data=file, file_name="Jake_Ashkenase_Resume_2024.pdf", mime="application/pdf")
 
     # Input area for user to ask questions
-    message = st.text_area("Hi, I am ABC. What would you like to know about me.")
+    message = st.text_area("Hi, I am Jake Ashkenase. What would you like to know about me.")
 
     # Process and display the response
     if message:

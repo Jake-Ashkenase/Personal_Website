@@ -21,60 +21,39 @@ db = FAISS.from_documents(documents, embeddings)
 
 
 def retrieve_info(query):
-    similar_response = db.similarity_search(query, k=3)
+    similar_response = db.similarity_search(query, k=4)
     page_contents_array = [doc.page_content for doc in similar_response]
     return page_contents_array
 
 
 llm = ChatOpenAI(temperature=0, model="gpt-4-1106-preview")
 
-template = """
-You are Dhruv Kamalesh Kumar, responding to questions as yourself. Please review the data provided to understand more about me.
 
-I will share a prospective employer's question with you, and you will provide a response as Dhruv Kamalesh Kumar, maintaining a polite and professional tone.
+template = """You are Jake Ashkenase, below is data containing information about him.
 
-Below is a question from a prospective employer:
-
-{question}
-
-Here is the relevant data:
+Relevant data:
 
 {relevant_data}
 
-Please provide a response as Dhruv Kamalesh Kumar, incorporating the data to address this prospective employer:
-"""
+Use the previous data to answer the presented interview question from the perspective of Jake Ashkenase. 
 
-template2 = """
-"You are Dhruv Kamalesh Kumar, responding to questions in your own capacity. Please take a moment to review the provided information to gain a deeper understanding of my background.
-
-I will present a question from a potential employer:
+Presented question:
 
 {question}
 
-To assist in your response, here is the relevant data:
 
-{relevant_data}
+Instructions:
+    ~Respond as Jake Ashkenase, maintaining a polite and professional tone.
+    ~Keep responses under 200 words, focusing on only providing information that is relevant to the question. 
+    ~ For professional or skill-related questions, rely solely on the provided data.
+    ~Avoid stating "As Jake Ashkenase, I would..." or "As Jake Ashkenase, I will..." (this is implied).
+    ~For very personal questions where data is not present you may use a witty response, keeping it under 50 words.
 
-Now remember, you are responding as Dhruv Kamalesh Kumar, so please keep your tone polite and professional.
-
-Never use more than 200 words in your response, and always keep it relevant to the question.
-
-Never use "As Dhruv Kamalesh Kumar, I would..." or "As Dhruv Kamalesh Kumar, I will..." in your response.(This is already implied)
-
-If a very personal question is asked, you may choose to answer it with a witty response, but keep it short and sweet, ideally within 50 words.(use relevant jokes)
-
-If the question asked is personal and the relevant data is absent, you may choose to answer it with a witty response, but keep it short and sweet, ideally within 50 words.(use relevant jokes)
-
-Avoid giving any information that is not relevant to the question.
-
-Please craft a reply as Dhruv Kamalesh Kumar, ensuring you incorporate the data to address the prospective employer's inquiry. Your response should be between 150-200 words, optimizing for relevance to the question.
-
-For questions related to your profession or skills, rely solely on the provided data. However, for any other questions where relevant data is absent, feel free to offer a concise, witty response in the first person, keeping it short and sweet, ideally within 50 words."
 """
 
 prompt = PromptTemplate(
     input_variables=["question", "relevant_data"],
-    template=template2
+    template=template
 )
 
 chain = LLMChain(llm=llm, prompt=prompt)
@@ -88,26 +67,81 @@ def generate_response(question):
 
 def main():
     st.set_page_config(
-        page_title="Get to know me", page_icon=":male-technologist:")
+        page_title="Get to know me", page_icon=":male-technologist:",
+        layout="wide")
+    
+    # Main function to run the Streamlit app
+def main():
+    # Set up the Streamlit page configuration and customize it
+    st.set_page_config(
+        page_title="Get to know me", page_icon=":male-technologist:",
+        layout="wide")
+    
+    # Custom CSS 
+    st.markdown(
+        """
+        <style>
+        .stApp {
+            background-color: #193f64;
+            color: #ebc57e;
+        }
+        .stTextInput label {
+            font-size: 18px;
+            color: #333;
+        }
+        .stTextInput div {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .stTextInput textarea {
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .stButton button {
+            background-color: #f1ab65;
+            color: #f1ab65;
+            border-radius: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        .stButton button:hover {
+            background-color: #e28743;
+        }
+            .custom-title {
+        font-family: 'Arial', sans-serif;
+        font-size: 48px;
+        text-align: center;
+        color: #ebc57e; 
+        }
+        </style>
+        """, unsafe_allow_html=True
+    )
 
-    # announcement = "(P.S. This was built in 3 days, imagine what I can do in 30 :sunglasses:)"
-    # st.toast(body=announcement)
-    # st.balloons()
+    # Add a title to the UI
+    st.markdown("<h1 style='text-align: center;'>Jake Ashkenase</h1>", unsafe_allow_html=True)
+
+    # Streamlit UI layout with columns
     col1, col2, col3 = st.columns([1, 2, 1])
-    col1.header("Get to know me")
-    col2.image("memoji.png", width=200)
-    with open("resume.pdf", "rb") as file:
-        col3.download_button(label="Download my Resume", data=file, file_name="resume.pdf", mime="application/pdf")
 
-    message = st.text_area("Hi, I am Dhruv Kamalesh Kumar. Ask me any questions you want to know about me.")
+    col1.markdown("<h1 style='text-align: center;'>Get to know me</h1>", unsafe_allow_html=True)
 
+    col2.image("Jake Ashkenase Headshot.png", width=200)
+    with open("Jake_Ashkenase_Resume_2024.pdf", "rb") as file:
+        col3.download_button(label="Download my Resume", data=file, file_name="Jake_Ashkenase_Resume_2024.pdf", mime="application/pdf")
+
+    # Input area for user to ask questions
+    message = st.text_area("Hi, I am Jake Ashkenase. What would you like to know about me.")
+
+    # Process and display the response
     if message:
         st.write("Typing...")
-
         result = generate_response(message)
-
         st.info(result)
 
-
+# Entry point for the Streamlit application
 if __name__ == '__main__':
     main()
+
