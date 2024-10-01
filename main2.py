@@ -174,3 +174,6 @@ with st.container():
             """
         )
         st.markdown("[Read Here...](https://news.northeastern.edu/2024/07/18/healey-ai-task-force-northeastern/?utm_source=News%40Northeastern&utm_campaign=d196f86d81-EMAIL_CAMPAIGN_2022_09_22_11_00_COPY_01&utm_medium=email&utm_term=0_508ab516a3-d196f86d81-279411200)")
+
+    st.write("Website Inspired By Dhruv Kamalesh Kumar")
+
