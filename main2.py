@@ -92,7 +92,7 @@ local_css("style/style.css")
 
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
-innovatema = Image.open("images/InnovateMA.png")
+skills = Image.open("images/skills.jpg")
 lightcast_article = Image.open("images/lightcast.jpg")
 underbelly = Image.open("images/underbelly.jpg")
 
@@ -162,6 +162,20 @@ with st.container():
             """
         )
         st.markdown("[Read Here...](https://lightcast.io/resources/blog/global-ai-skills-jobs)")
+
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(skills)
+    with text_column:
+        st.subheader("Skills Mismatch")
+        st.write(
+            """
+            Analyzing the difference between the skills taught at education institutions and the skills requested by employers can give both students and institutions 
+            the clearest possible understanding of where the gaps are—and where they can be bridged.
+            """
+        )
+        st.markdown("[Read Here...](https://lightcast.io/resources/research/skills-mismatch-educators)")
 
 
 with st.container():
