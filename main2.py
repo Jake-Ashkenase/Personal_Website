@@ -162,19 +162,6 @@ with st.container():
             """
         )
         st.markdown("[Read Here...](https://lightcast.io/resources/blog/global-ai-skills-jobs)")
-with st.container():
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(innovatema)
-    with text_column:
-        st.subheader("InnovateMA: AI for Impact Program")
-        st.write(
-            """
-            Collaberating with the Massachusetts Executive Office of Health and Human Services to increase the efficiency 
-            of their eligibility offices and increase the ease of applying to life changing healthcare programs. 
-            """
-        )
-        st.markdown("[Read Here...](https://news.northeastern.edu/2024/07/18/healey-ai-task-force-northeastern/?utm_source=News%40Northeastern&utm_campaign=d196f86d81-EMAIL_CAMPAIGN_2022_09_22_11_00_COPY_01&utm_medium=email&utm_term=0_508ab516a3-d196f86d81-279411200)")
 
 
 with st.container():
