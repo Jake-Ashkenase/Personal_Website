@@ -94,6 +94,7 @@ local_css("style/style.css")
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 innovatema = Image.open("images/InnovateMA.png")
 lightcast_article = Image.open("images/lightcast.jpg")
+underbelly = Image.open("images/underbelly.jpg")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -174,6 +175,21 @@ with st.container():
             """
         )
         st.markdown("[Read Here...](https://news.northeastern.edu/2024/07/18/healey-ai-task-force-northeastern/?utm_source=News%40Northeastern&utm_campaign=d196f86d81-EMAIL_CAMPAIGN_2022_09_22_11_00_COPY_01&utm_medium=email&utm_term=0_508ab516a3-d196f86d81-279411200)")
+
+
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(underbelly)
+    with text_column:
+        st.subheader("The Hideous Underbelly of AI")
+        st.write(
+            """
+            A personal writing piece that explores the exploitation of labor driving the advancements in AI systems, 
+            while also offering alternatives to support continued AI development with fewer negative consequences.
+            """
+        )
+        st.markdown("[Read Here...](https://medium.com/@jakeash329/the-hideous-underbelly-of-ai-e8130bdb6faf?source=friends_link&sk=28e33c462db7022a687f0bb35a63d4fa)")
 
     st.write("")
     st.write("")
