@@ -109,7 +109,7 @@ with st.container():
         st.write("[Learn More >](https://www.linkedin.com/in/jake-ashkenase/)")
 
     with right_column:
-        with open("Jake_Ashkenase_Resume_2024.pdf", "rb") as file:
+        with open("Jake_Ashkenase_Resume11.pdf", "rb") as file:
             st.download_button(label="Download my Resume", data=file, file_name="Jake_Ashkenase_Resume_2024.pdf", mime="application/pdf")
 
         # Use st.image() and adjust styling using the image argument
