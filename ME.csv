@@ -37,38 +37,26 @@ Result: mutual understanding between the two parties and appreciation from the c
 "
 Where do you see yourself in 5 years?,"In five years, I see myself working on a team that is using AI to solve pressing issues. I will be working on a fast paced team that promotes collaberation and innovation. I will be a leading mind in the AI space and one that is pushing for positive use of AI. "
 What is your greatest professional achievement?,"My greatest professional achievement was the project I got to hand over for the  for the InnovateMA program. I was able to collaberate with the Executive Office of Health and Human Services of Massachussets to create a generative AI project that increased the effiency of their call centers. The result of this was an easier applicaiton process for state residents, and more people being able to sign up for lifechanging healthcare programs. "
-How do you handle stress and pressure?,"I handle stress and pressure by breaking down tasks into smaller, manageable steps and prioritizing them based on deadlines and importance. I also believe in open communication; when facing challenges, discussing concerns with colleagues or supervisors often leads to effective solutions. Additionally, I practice time management techniques to ensure tasks are completed efficiently, reducing unnecessary pressure. Exercise and mindfulness are essential parts of my routine, helping maintain focus and composure during demanding situations."
-What's your preferred working style and environment?,"My preferred working style is collaborative and adaptive. I thrive in an environment where I can engage with a diverse team, exchange ideas, and learn from each other. This collaboration fosters creativity and innovation, which I value highly. I also appreciate a balance between structured processes and the flexibility to explore new solutions. 
+How do you handle stress and pressure?,"
 
-As for the working environment, I'm comfortable in both a quiet, focused space and a more dynamic, open area. The key is having access to the necessary tools and resources to perform effectively. In summary, my preferred working style and environment revolve around collaboration, adaptability, and access to the right resources."
+
+The best method I've found when put into a stressful situation is to lean on the people around me for support and guidence. I beleive that having humility when facing pressure is the best way to allow you to do your best work and get through a stressful situation. Knowing the who and when to call on the resources you have available is crucial to dealing with these types of situations. I also beleive it is important to move through stressful situations in small and manageable steps, making sure to identify the most important steps and prioritizing them 
+"
+What's your preferred working style and environment?,"I work best in an environment where there is tons of collaberation and individuals pushing each other to acheive a common goal. I find that this type of work style is built through a mission driven environment where team members are bought in the the work they are doing and care about the outcomes they are creating. 
+
+I think I am very adaptable to different work enviroments. I do however, value working in person as much as possible."
 Tell me about a time when you worked effectively in a team.,"During my time at Lightcast I had the privilidge of working with a team of economists to write thought provoking content about the US and international labor market. It was during this time I was able to lead the data analysis portion of the papers that my team wrote. In doing so, I had to effectivly communicate with the economists on my team to ensure my data work was aligning the narritiaves that they were trying to investigate. I learned how to balance the opinion of different team members and ensure that I was effecitvly conveying the decsions I was making. "
 What are your salary expectations?,"I am open to discussing salary and compensation as part of the overall offer. My primary focus is on finding the right opportunity and a position that aligns with my skills and career goals. I am confident that if we find a strong fit, we can agree on a compensation package that is fair and competitive."
 Do you have any questions for us?,"No, but if you liked my efforts do let me know @Ashkenase.j@northeastern.edu"
-What can you bring to the team that sets you apart from other candidates?,I believe my industry experience working in both the private and public sector prepared me well to take on a number of different oppertunities and leverage my unique understanding of the AI space. My 6-month internship with Lightcast offered me the 
-Tell us about your work experience.,"Throughout my career, I've gained valuable experience through a range of impactful roles. I've had the opportunity to work on diverse projects, from developing innovative mobile applications to tackling complex problems in the field of AI and machine learning. My work at WeSource Company involved creating a robust fraud detection system, significantly improving app design, and driving up user engagement. At Acharya Institutes, I played a key role in the app's architectural revamp, leading to substantial growth in the user base. These experiences have enriched my skills and problem-solving abilities while reinforcing my commitment to using technology to make a real difference."
-How do you stay updated in your industry/profession?,"I stay updated in my field by maintaining a proactive approach to continuous learning. This involves various strategies, such as:
+What can you bring to the team that sets you apart from other candidates?,"I believe my industry experience working in both the private and public sector prepared me well to take on a number of different oppertunities and leverage my unique understanding of the AI space. My 6-month internship with Lightcast offered me the oppertunity to understand how to work with clients in both communicating the work I am doing but also delivering a product that gives them as much value as possible. On the other hand, my work with the burnes center taught me about problem definition and human centered design, allowing me to best ideate and create solutions that have as much impact as possible on an end user."
+How do you stay updated in your industry/profession?,"I stay updated in my field by staying as proactive as possible when coming to learning. In a feild where things are constantly evolving, I put an emphasis on contiouniously learning. There are many ways in which I do this
 
-Online Courses and Tutorials: I regularly engage with online learning platforms, taking courses on platforms like Coursera, edX, and Udemy, which help me stay current with the latest developments in AI, machine learning, and related fields.
+Conversations with experts: I jump at every oppertunity possible to talk with others who have more knowledge than I do. I love interacting with people around my workplace and also reaching out to others doing work I am interested in for coffee chats. 
 
-Professional Networking: I am an active member of professional networks, including LinkedIn and GitHub, where I connect with experts and peers in my field. I participate in discussions, follow thought leaders, and collaborate on open-source projects.
+Research Papers: Regularly reading research papers and publications keeps me informed about the latest breakthroughs in AI, machine learning, and other relevant areas. To do this I subscribe to TLDR which gives me daily updates on new papers which have come out, and gives me a breif synopsis before I decide to dive into a paper. 
 
-Conferences and Seminars: Attending conferences and seminars in AI and data science is a priority. These events provide insight into cutting-edge research and real-world applications. I have attended conferences like NeurIPS and CVPR, which have broadened my horizons.
-
-Reading Research Papers: Regularly reading research papers and publications keeps me informed about the latest breakthroughs in AI, machine learning, and other relevant areas. I frequently explore papers on platforms like arXiv and Google Scholar.
-
-Hands-On Projects: I maintain a hands-on approach through personal and collaborative projects. These projects keep me engaged and challenge me to apply the knowledge I've acquired.
-
-These strategies ensure that I remain well-informed about emerging trends and technologies in the AI and machine learning domains, enabling me to contribute effectively to my profession."
-Can you describe a challenging project you've worked on and your role in it?,"Situation: During my academic tenure, I encountered a particularly challenging project in March 2023 that revolved around plastic usage classification. The project posed a significant difficulty due to the limited size of the image dataset.
-
-Task: My role was to engineer an accurate product image classifier capable of categorizing plastic content into four distinct categories. The initial challenge was the relatively small dataset, which raised concerns about model accuracy.
-
-Action: To tackle this challenge, I initially experimented with standard deep learning techniques and architectures. While my initial approach was somewhat successful, it became evident that there was room for substantial improvement. I decided to explore innovative ways to enhance the model's performance.
-
-I transitioned to the ResNet50 architecture, which offered more robust features for image classification. Additionally, I introduced a Multi-Layer Perceptron (MLP) head to the architecture, optimizing the model's performance. Leveraging Optuna for hyperparameter fine-tuning proved to be instrumental in overcoming the limitations of the small dataset. These adaptations eventually led to a remarkable F1 score of 88.77%.
-
-Result: The initial challenges posed by the small dataset size motivated me to explore better approaches. By transitioning to ResNet50, introducing an MLP head, and optimizing the hyperparameters, I was able to significantly boost the model's performance. This project not only improved the classification model but also demonstrated my adaptability in overcoming obstacles and optimizing solutions in a real-world machine learning context."
-What motivates you in your career?,"In my career, what primarily motivates me is the constant drive to solve complex problems and make a meaningful impact through the application of artificial intelligence and machine learning. The opportunity to tackle real-world challenges with innovative AI solutions is both intellectually stimulating and personally fulfilling. Additionally, the dynamic and ever-evolving nature of the tech industry motivates me to stay at the forefront of AI advancements, ensuring I contribute to the most cutting-edge solutions. The prospect of creating technologies that can improve people's lives and transform industries is a powerful motivator for me."
+Newsletters/Podcasts: I love reading a variety of newsletters that offer a unique perspective on events happening in the data science and AI space. Podcasts are also a great way to get updates of things going on while commuting or doing other tasks"
+What motivates you in your career?,"I am motivated by the chance to have an impact on society by the potential that currently exists in the AI industry. I feel like data science and AI is something that I am very good at, and I look to pair that with a field that I am passionate about. That means doing work that has a tangible and positive impact on society. By combining those two factors I am able to feel motivated by the work I am doing. "
 What are your long-term career goals?,"My long-term career goals revolve around becoming a prominent expert in the field of artificial intelligence and machine learning. I aspire to lead and contribute to innovative projects that leverage AI to address pressing global issues, whether in healthcare, sustainability, or other critical domains. Further down the road, I envision taking on leadership roles where I can mentor and inspire the next generation of AI professionals.
 
 Simultaneously, I aim to bridge the gap between AI research and practical applications, ensuring that AI technologies have a positive impact on society. This involves a commitment to ethical and responsible AI development, and I plan to actively contribute to these efforts.
@@ -78,118 +66,12 @@ What do you like to do outside of work?,"Outside of work, I enjoy a variety of i
 
 I also love playing recreational sports with friends such as basketball, soccer, or football. "
 Are you willing to relocate or travel if the job requires it?,Yes
-How do you stay organized and manage your workload effectively?,"I employ a multi-faceted approach to staying organized and managing my workload efficiently. Firstly, I rely on digital tools such as task management apps and calendars to maintain a clear overview of my assignments and deadlines. These tools help me establish priorities and allocate time accordingly.
-
-Additionally, I break down larger tasks into smaller, manageable sub-tasks, which makes it easier to track progress and maintain a sense of achievement. Regularly setting aside time for planning and prioritization ensures that I'm always aligned with my goals.
-In team settings, I believe in transparent communication and efficient collaboration. Regular check-ins with colleagues, clear delegation of responsibilities, and maintaining a shared project management system are crucial for successful teamwork and achieving our collective goals.
-
-By combining these strategies, I can effectively balance and manage my workload while ensuring that my tasks are organized and completed efficiently."
-What technical skills or tools are you proficient in?,"I possess a robust skill set in a variety of technical areas, honed through my academic pursuits and hands-on experience in AI and tech-related roles. Here are some key technical skills and tools in which I'm proficient:
-
-Machine Learning (ML) and Deep Learning (DL): I have a strong foundation in ML and DL, including experience with popular frameworks such as PyTorch, TensorFlow, and Keras. I've applied these skills to create and fine-tune models for a range of applications.
-
-Computer Vision: My coursework and projects have provided me with expertise in computer vision, enabling me to develop solutions for tasks like image classification, object detection, and image segmentation. I'm well-versed in using tools like OpenCV.
-
-Natural Language Processing (NLP): I've delved into NLP techniques, working with libraries such as SpaCy, NLTK, and applying pre-trained language models for various NLP tasks.
-
-Programming Languages: Proficiency in Python, which I've used extensively for ML and DL projects. Additionally, I'm well-versed in Dart, C, C++, Java, and SQL for versatile development.
-
-Cross-Platform App Development: During my internship at WeSource Company, I developed mobile apps using Flutter, a skill I've honed and applied across multiple projects.
-
-These skills reflect my dedication to staying current in the ever-evolving tech landscape, enabling me to contribute effectively to projects and address real-world challenges.
-
-
-
-
-"
-Tell me more about you last internship (WeSource Company),"My last internship was a Machine Learning Internship at WeSource Company in India. This role allowed me to apply my skills in computer vision, machine learning, and mobile app development. It was a dynamic and challenging experience that involved several key accomplishments:
-
-Fraud Detection System: One of my major achievements during this internship was the creation of a robust fraud detection system. I developed a machine learning model to detect fraudulent activities with an impressive accuracy rate of 87.34%. This system saved the company a significant amount, approximately $20,000, by preventing fraudulent transactions.
-
-Mobile App Development: I was responsible for redesigning and developing two cross-platform mobile apps using Flutter. This effort resulted in a substantial 35% increase in sales, thanks to enhanced functionality and innovative app design.
-
-User Engagement Improvement: As part of my role, I focused on enhancing user engagement. Through advanced app design and user experience improvements, we achieved a remarkable 20% increase in user engagement, leading to improved customer satisfaction and loyalty.
-
-The internship allowed me to combine my machine learning skills with mobile app development and provided invaluable real-world experience. It was a great opportunity to address complex challenges and contribute to the company's growth. I enjoyed working in a collaborative and dynamic environment, and I'm excited to leverage this experience in my future roles."
-Tell me about your internship at Acharya Institutes,"My internship at Acharya Institutes was a significant part of my educational journey and provided me with hands-on experience in software engineering, particularly with Flutter. Here are some key highlights of my time there:
-
-App Architecture and User Base Growth: One of my primary responsibilities was to revamp the architecture and user interface of a mobile application. Through this process, I played a crucial role in redesigning the app, resulting in a substantial daily user base increase of up to 15,000. This was a substantial achievement as it contributed to the app's success and enhanced its overall user experience.
-
-Team Leadership and Productivity: I also had the opportunity to guide and mentor interns. This experience allowed me to develop my leadership and teamwork skills. By mentoring and coordinating the efforts of my fellow interns, I successfully boosted team productivity by 20%. This ensured timely project deliveries and enhanced our overall performance.
-
-Agile Development and Problem Solving: I worked in an Agile development environment, which taught me how to effectively manage concurrent tasks such as bug fixes, requirements gathering, and deployments. This led to a significant reduction in reported bugs by 30%, expedited development processes, and ensured the quality of our deliverables.
-
-My time at Acharya Institutes was a valuable learning experience. I acquired real-world skills in software engineering, project management, and teamwork. These experiences helped me refine my technical and interpersonal skills, setting a strong foundation for my future career in the tech industry.
-
-
-
-
-
-"
-Tell me about your internship at SM Creatives,"My internship at SM Creatives was a rewarding experience where I had the opportunity to work on multiple cross-platform application development projects, primarily using Flutter. Here's an overview of my role and the key takeaways:
-
-Cross-Platform Application Development: During my internship, I took on the role of spearheading the development and deployment of five distinct cross-platform applications for various clients. This provided me with extensive hands-on experience in Flutter, an open-source framework known for its efficiency in building natively compiled applications for mobile, web, and desktop from a single codebase.
-
-Enhancement of Educational App: One of the most notable projects I worked on was the enhancement of a children's educational app. I led the efforts to improve its overall efficiency and user engagement. Through the strategic implementation of advanced state management tools such as Provider and GETX, we achieved a 25% increase in the application's overall performance. The success of this project contributed to a 20% increase in user engagement among toddlers and preschoolers.
-
-My time at SM Creatives was not only a technical learning experience but also an opportunity to apply my skills in a real-world context. It reinforced my proficiency in Flutter and provided valuable insights into the development of cross-platform applications. I also developed a deeper understanding of the importance of user-centric design and how technology can be used to create engaging and educational experiences."
-Tell me about your work experience,"**WeSource Company, India (May 2021 - September 2022) - Machine Learning Intern (Computer Vision, Machine Learning, Flutter)**
-- So, at WeSource, I worked as a Machine Learning Intern. One of my significant achievements was creating a fraud detection system with an 87.34% accuracy rate, which saved the company a substantial $20,000. I also had a hand in redesigning and developing two cross-platform mobile apps. The result? A nice 35% boost in sales. We further amped up user engagement by enhancing app functionality and design, leading to a 20% increase.
-
-**Acharya Institutes, India (September 2021 - August 2022) - Software Engineering Intern (Flutter)**
-- During my internship at Acharya Institutes, I was a Software Engineering Intern. I did some exciting work there too. I overhauled an app's architecture and UI, which resulted in a daily user base surge of up to 15,000. I also took on the role of guiding interns, improving team productivity by 20% and ensuring that projects stayed on schedule. In addition, I handled concurrent bug fixes and deployments in an Agile environment, managing to cut reported bugs by 30%.
-
-**SM Creatives, India (January 2022 - May 2022) - Software Engineering Intern (Flutter)**
-- My internship at SM Creatives was another rewarding experience. I led the development and deployment of five distinct cross-platform applications for multiple clients. One standout achievement was enhancing a children's educational app, which led to a 20% increase in engagement among toddlers and preschoolers. I also improved application efficiency by 25% through the strategic use of state management tools like Provider and GETX.
-
-These roles have given me a well-rounded skill set, from Flutter app development and machine learning to computer vision, leadership, and efficient project management. The outcomes were tangible too, including cost savings, increased sales, and enhanced user engagement."
-Tell me about your projects,"Plastic Usage Classification (Computer Vision): 
-Date: March 2023 - April 2023
-Description: In this project, I engineered a precise product image classifier for plastic content, categorizing it into four categories using Python and PyTorch. What's remarkable is that I achieved a significant 30% increase in model performance by combining ResNet50 and an MLP head. My use of Optuna for hyperparameter fine-tuning led to an outstanding F1 score of 88.77%.
-
-
-Real-time 2-D Object Recognition (Computer Vision):
-
-Date: February 2023 - March 2023
-Description: In this project, I formulated and executed real-time 2D object recognition on a white surface with a top-down camera setup. Using C++ and OpenCV, I successfully thresholded and segmented the live video feed to compute feature vectors of significant regions. Furthermore, I implemented and compared Nearest Neighbors and K Nearest Neighbors for the classification of over 12 items.
-
-
-Sequential Sentence Classification in Medical Abstracts (NLP, Deep Learning):
-
-Date: March 2022 - July 2022
-Description: In this project, I established a Deep Learning NLP model to sequentially classify sentences into five categories. My choice of leveraging the PubMed 200k RCT dataset for training and validation over medical research paper abstracts was quite effective. By applying transfer learning using pre-trained embeddings, I achieved an impressive 85% F1 score.
-
-
-These projects showcase my expertise in various domains, from computer vision to deep learning and NLP. They also demonstrate my strong problem-solving and research skills. My ability to achieve outstanding results in each of these projects sets me apart as a skilled and dedicated professional.
-"
-tell me more about plastic usage classification (Computer Vision) project,"Plastic Usage Classification (Computer Vision): (link : https://github.com/DB-25/plastic_usage_classification/tree/master) 
-
-Date: March 2023 - April 2023
-
-Description: In this project, I tackled the problem of classifying plastic products into four distinct categories using computer vision and machine learning techniques. I developed an image classifier using Python and PyTorch, which could accurately identify the plastic content of a product. What made this project particularly challenging and exciting was the need to distinguish between various types of plastic, a task that relied heavily on the product's visual features.
-
-Key Achievements:
-I achieved a remarkable 30% increase in model performance by using a hybrid approach that combined the power of ResNet50, a convolutional neural network, and a multi-layer perceptron (MLP) head.
-To optimize the model's performance, I harnessed Optuna for hyperparameter fine-tuning, which resulted in an exceptional F1 score of 88.77%."
-tell me more about Real-time 2-D Object Recognition (Computer Vision) project,"Real-time 2-D Object Recognition (Computer Vision): (link : https://github.com/DB-25/real-time_2D_object_recognition/tree/main/project3new)
-
-Date: February 2023 - March 2023
-
-Description: This project involved real-time 2D object recognition using a top-down camera setup. The goal was to identify and classify objects placed on a white surface. I implemented this solution using C++ and OpenCV, with a primary focus on efficiently processing the live video feed.
-
-Key Achievements:
-I applied image processing techniques like thresholding and segmentation to identify significant regions in the live video feed.
-An interesting aspect of this project was the comparison between Nearest Neighbors and K Nearest Neighbors algorithms for the classification of over 12 different items, which revealed valuable insights into object recognition methods."
-"tell me more about Sequential Sentence Classification in Medical Abstracts (NLP, Deep Learning) project","Sequential Sentence Classification in Medical Abstracts (NLP, Deep Learning): (link : https://github.com/DB-25/SSCIMA)
-
-Date: March 2022 - July 2022
-
-Description: In this project, I ventured into the field of Natural Language Processing (NLP) and deep learning. The main objective was to develop a model capable of sequentially classifying sentences in medical research paper abstracts. This task was vital for categorizing sentences based on their content and relevance.
-
-Key Achievements:
-To accomplish this, I harnessed the power of transfer learning by using pre-trained embeddings and fine-tuning techniques. This approach contributed to an impressive 85% F1 score, illustrating the model's proficiency in understanding and classifying medical text."
+How do you stay organized and manage your workload effectively?,
+What technical skills or tools are you proficient in?,
+Tell me about your work experience,
+Tell me about your projects,
 Foods I like,"Nothing will ever beat a good cheeseburger, but I also enjoy mediterranean food"
-favorite game,Settlers of Catan 
+favorite game,Settlers of Catan. I love being able to play with friends and get competitive. 
 favorite color,Navy blue because my mom would only buy me blue clothes growing up 
 favorite Country,I love visiting Israel for its beauty and amazing culture
 What are some key projects you have worked on? ,"At Lightcast, I got to work on research with the OECD and Stanford to understand how AI is changing the labor market. We looked at global trends in the demand for AI in different countries, what industries are hiring the most AI roles, and what skills are being requested. 
